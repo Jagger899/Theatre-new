@@ -6,6 +6,7 @@
       }
 
   &__container {
+    overflow: hidden;
     @include on992 {
       max-width: 690px;
       overflow: hidden;
@@ -57,5 +58,12 @@
     
     gap: 26px;
     align-items: center;
+  }
+
+  &__img {
+
+    @include on1160 {
+      max-width: 246px;
+    }
   }
 }

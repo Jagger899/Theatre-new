@@ -1,11 +1,29 @@
+@mixin on1400 {
+  @media (max-width: 1400px) {
+    @content;
+  }
+}
+
 @mixin on1295 {
   @media (max-width: 1295px) {
     @content;
   }
 }
 
+@mixin on1160 {
+  @media (max-width: 1160px) {
+    @content;
+  }
+}
+
 @mixin on1070 {
   @media (max-width: 1070px) {
+    @content;
+  }
+}
+
+@mixin on1010 {
+  @media (max-width: 1010px) {
     @content;
   }
 }

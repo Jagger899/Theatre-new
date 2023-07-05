@@ -6,6 +6,7 @@
   background-size: cover;
   display: flex;
   position: relative;
+  // overflow: hidden;
   
   @include on1295 {
     gap: 41px;
@@ -35,9 +36,10 @@
     // margin: 0 auto;
     align-items: end;
     gap: 71px;
-
-    @include on1295 {
+    
+    @include on1400 {
       align-items: center;
+      gap:20px
     }
 
     @include on992 {
@@ -53,13 +55,27 @@
   }
 
   &__info {
+    flex-basis: 54%;
+
+    @include on1400 {
+      flex-basis: 50%;
+    }
     @include on992 {
       flex-basis: 692px;
     }
   }
 
   &__slider {
-    @include on992 {
+
+    @include on1400 {
+      max-width: 300px;
+    }
+
+    @include on1160 {
+      max-width: 270px;
+    }
+
+    @include on1010 {
       display: none;
     }
   }
