@@ -182,6 +182,7 @@ body {
 @media (max-width: 1160px) {
   .header__slider {
     max-width: 270px;
+    max-height: 430px;
   }
 }
 @media (max-width: 1010px) {
@@ -937,13 +938,19 @@ body {
   opacity: 0;
 }
 .productions__slider {
-  width: 100%;
-  height: 100%;
   margin: 0 auto;
+  box-sizing: border-box;
+}
+@media (max-width: 1160px) {
+  .productions__slider {
+    max-width: 690px;
+    width: 100%;
+  }
 }
 @media (max-width: 992px) {
   .productions__slider {
     max-width: 690px;
+    width: 100%;
   }
 }
 @media (max-width: 768px) {
