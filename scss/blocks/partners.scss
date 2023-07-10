@@ -48,20 +48,17 @@
 
   &__logos-top {
     display: flex;
-    
     gap: 26px;
     align-items: center;
   }
 
   &__logos-bottom {
     display: flex;
-    
     gap: 26px;
     align-items: center;
   }
 
   &__img {
-
     @include on1160 {
       max-width: 246px;
     }

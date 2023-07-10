@@ -1,14 +1,11 @@
 .nav {
   display: flex;
   justify-content: space-between;
-  // gap: 20px;
 
   @include on1295 {
     flex-direction: column;
     gap: 50px;
     margin: 0 auto;
-    // justify-content: center;
-    // align-items: center;
   }
 
   &__list {
@@ -26,9 +23,7 @@
     }
 
     @include on880 {
-      // justify-content: space-between;
       gap: 14px;
-      // align-items: center;
     }
 
     @include on768 {

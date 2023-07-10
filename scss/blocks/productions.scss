@@ -52,8 +52,6 @@
   }
 
   &__container {
-    // position: relative;
-    // max-width: 442px;
     z-index: 5;
     position: relative;
     z-index: 5;
@@ -72,12 +70,9 @@
     &:hover .productions__date {
       opacity: 0;
     }
-
   }
 
   &__slider {
-    // width: 100%;
-    // height: 100%;
     margin: 0 auto;
     box-sizing: border-box;
     // max-height: 450px;
@@ -99,8 +94,6 @@
 
   &__slide {
     position: relative;
-    // min-width: 442px;
-    // min-height: 550px;
   }
   
 
@@ -123,7 +116,6 @@
   }
 
   &__overlay {
-    
     background-color: rgba(51, 51, 51, 0.65);
     position: absolute;
     top: 0;
@@ -136,16 +128,11 @@
     &:hover {
       opacity: 0;
     }
-
   }
-
   &__img {
     // position: absolute;
     display: block;
-    // width: 100%;
-    // height: 100%;
     object-fit: cover;
-    
   }
 
   &__name {
@@ -171,12 +158,3 @@
     text-transform: uppercase;
   }
 }
-
-// .swiper-wrapper {
-//   width: 100%;
-//   height: 100%;
-
-//   @include on1160 {
-//     max-width: 690px;
-//   }
-// }
