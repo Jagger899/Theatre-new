@@ -57,14 +57,18 @@
     }
 
     @include on740 {
-      flex-basis: 35%;
+      max-width: 200px;
+    }
+
+    @include on515 {
+      max-width: 170px;
     }
 
     @include on475 {
       max-width: 150px;
     }
 
-    @include on400 {
+    @include on415 {
       flex-basis: 100%;
       max-width: 100%;
     }

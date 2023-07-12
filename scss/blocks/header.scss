@@ -79,6 +79,12 @@
     }
   }
 
+  &__slider-arrow {
+      display: flex;
+      justify-content: space-between;
+      
+  }
+
   &__button {
     margin-left: 11px;
     

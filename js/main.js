@@ -6,7 +6,7 @@ const swiper = new Swiper('.swiper', {
   loop: true,
   effect: "cards",
   grabCursor: true,
-
+  slidesPerView:1,
   // Navigation arrows
   navigation: {
     nextEl: '.swiper-button-right',
@@ -20,10 +20,10 @@ const swiper2 = new Swiper('.swiper2', {
   slidesPerView: 0,
   spaceBetween:0,
   // Navigation arrows
-  navigation: {
-    nextEl: '.swiper-button-right',
-    prevEl: '.swiper-button-left',
-  },
+  // navigation: {
+  //   nextEl: '.swiper-button-right',
+  //   prevEl: '.swiper-button-left',
+  // },
 
   breakpoints: {
     0: {
@@ -62,38 +62,4 @@ form.addEventListener('submit', (event) => {
   console.log('working')
 });
 
-
-// const overlay = document.querySelector('.productions__overlay');
-// console.log(overlay)
-// const parent = overlay.parentNode;
-// console.log(parent)
-// parent.removeChild(overlay)
-
-// const allOverlays = document.querySelectorAll('.productions__overlay');
-
-// for (let overlay of allOverlays) {
-//   const parent = overlay.parentNode;
-//   parent.removeChild(overlay)
-// }
-
-// for (let prod of prods) {
-//   prod.addEventListener('click', () => {
-//     console.log('sipmle prod')
-//     const overlay = document.getElementsByClassName('productions__overlay');
-//     console.log(overlay);
-//     overlay.classList.add('production__overlay--unvis')
-//   })
-// }
-
-// const links = document.querySelectorAll('.menu__item');
-
-// for (let link of links) {
-//   link.addEventListener('click', () => {
-//     let activeLink = document.querySelector('.menu__item._active');
-//     if (activeLink) {
-//       activeLink.classList.remove('_active');
-//     }
-//     link.classList.add('_active');
-//   })
-// }
 
