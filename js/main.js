@@ -1,6 +1,3 @@
-// $(function () {
-
-// })
 
 const swiper = new Swiper('.swiper', {
   loop: true,
@@ -19,12 +16,6 @@ const swiper2 = new Swiper('.swiper2', {
   grabCursor: true,
   slidesPerView: 0,
   spaceBetween:0,
-  // Navigation arrows
-  // navigation: {
-  //   nextEl: '.swiper-button-right',
-  //   prevEl: '.swiper-button-left',
-  // },
-
   breakpoints: {
     0: {
       slidesPerView: 1.13,

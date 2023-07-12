@@ -65,6 +65,7 @@ body {
   color: #fff;
   display: flex;
   flex-direction: column;
+  scroll-behavior: smooth;
 }
 
 .section__title {
