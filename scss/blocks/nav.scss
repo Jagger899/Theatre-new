@@ -12,8 +12,12 @@
     display: flex;
     gap: 61px;
 
-    @include on1070 {
+    @include on1100 {
       gap: 28px;
+    }
+
+    @include on1070 {
+      gap: 18px;
     }
 
     @include on968 {
@@ -55,11 +59,13 @@
     line-height: 25px;
     text-transform: uppercase;
     color: $main-text-color;
+    white-space:nowrap;
+    // display: block;
 
-    @include on880 {
+    @include on968 {
         font-size: 16px;
         line-height: 10px;
-      }
+    }
 
     &--tel {
         position: relative;

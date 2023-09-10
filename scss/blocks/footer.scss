@@ -2,6 +2,11 @@
 
   padding-top: 124px;
 
+  @include on1070 {
+    padding-left: 111px;
+    padding-right: 111px;
+  }
+
   @include on992 {
     padding-top: 120px;
   }

@@ -17,7 +17,7 @@
     padding-right: 111px;
   }
 
-  @include on768 {
+  @include on785 {
     padding: 56px 33px 0;
   }
 
@@ -53,12 +53,12 @@
   }
 
   &__info {
-    flex-basis: 54%;
+    flex-basis: 56%;
 
     @include on1400 {
       flex-basis: 50%;
     }
-    @include on992 {
+    @include on1010 {
       flex-basis: 692px;
     }
   }

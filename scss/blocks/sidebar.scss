@@ -1,12 +1,12 @@
 .sidebar {
   background: rgba(51, 51, 51, 0.75);
   padding: 0 63px 0 62px;
-
+  
   @include on880 {
     padding: 0 43px 0 42px;
   }
 
-  @include on768 {
+  @include on785 {
     display: none;
   }
 

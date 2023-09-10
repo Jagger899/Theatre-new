@@ -123,7 +123,7 @@ body {
     padding-right: 111px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 785px) {
   .header {
     padding: 56px 33px 0;
   }
@@ -163,14 +163,14 @@ body {
   }
 }
 .header__info {
-  flex-basis: 54%;
+  flex-basis: 56%;
 }
 @media (max-width: 1400px) {
   .header__info {
     flex-basis: 50%;
   }
 }
-@media (max-width: 992px) {
+@media (max-width: 1010px) {
   .header__info {
     flex-basis: 692px;
   }
@@ -219,9 +219,14 @@ body {
   display: flex;
   gap: 61px;
 }
-@media (max-width: 1070px) {
+@media (max-width: 1100px) {
   .nav__list {
     gap: 28px;
+  }
+}
+@media (max-width: 1070px) {
+  .nav__list {
+    gap: 18px;
   }
 }
 @media (max-width: 968px) {
@@ -246,8 +251,9 @@ body {
   line-height: 25px;
   text-transform: uppercase;
   color: #fff;
+  white-space: nowrap;
 }
-@media (max-width: 880px) {
+@media (max-width: 968px) {
   .nav__link {
     font-size: 16px;
     line-height: 10px;
@@ -325,9 +331,11 @@ body {
   gap: 10px;
 }
 .promo__slider-text {
+  font-family: "Open Sans Condensed Bold", sans-serif;
   color: #fff;
   font-size: 16px;
   cursor: pointer;
+  text-transform: uppercase;
 }
 .promo__slider-img {
   object-fit: cover;
@@ -374,7 +382,7 @@ body {
     padding: 0 43px 0 42px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 785px) {
   .sidebar {
     display: none;
   }
@@ -444,6 +452,12 @@ body {
 
 .footer {
   padding-top: 124px;
+}
+@media (max-width: 1070px) {
+  .footer {
+    padding-left: 111px;
+    padding-right: 111px;
+  }
 }
 @media (max-width: 992px) {
   .footer {
@@ -665,7 +679,7 @@ body {
   }
 }
 .form__textarea {
-  padding: 15px;
+  padding: 10px 23px 10px 15px;
   max-width: 310px;
   max-height: 100px;
   grid-row: 1/3;
@@ -676,6 +690,7 @@ body {
   color: #fff;
 }
 .form__textarea::placeholder {
+  font-family: "Open Sans", sans-serif;
   color: #989898;
   font-size: 12px;
   font-weight: 600;
@@ -687,7 +702,7 @@ body {
   }
 }
 .form__input {
-  padding: 15px;
+  padding: 10px 23px 10px 15px;
   max-width: 180px;
   max-height: 35px;
   background-color: rgb(97, 97, 97);
@@ -699,6 +714,7 @@ body {
   color: #989898;
   font-size: 12px;
   font-weight: 600;
+  font-family: "Open Sans", sans-serif;
 }
 @media (max-width: 740px) {
   .form__input {
@@ -724,6 +740,7 @@ body {
 
 .theatre {
   padding: 150px 0 150px 150px;
+  margin: 0 auto;
 }
 @media (max-width: 1295px) {
   .theatre {
@@ -850,6 +867,7 @@ body {
   margin-bottom: 15px;
 }
 .theatre__numbers-descr-text {
+  font-family: "Open Sans Condensed Bold", sans-serif;
   font-size: 16px;
 }
 .theatre__numbers-descr-text--accent {
@@ -1140,6 +1158,11 @@ body {
   }
 }
 
+@media (max-width: 1070px) {
+  .partners {
+    padding: 0 111px;
+  }
+}
 @media (max-width: 768px) {
   .partners {
     padding: 90px 39px;
@@ -1166,6 +1189,11 @@ body {
   .partners__title {
     font-size: 48px;
     margin-bottom: 131px;
+  }
+}
+@media (max-width: 880px) {
+  .partners__title {
+    margin-bottom: 60px;
   }
 }
 @media (max-width: 360px) {

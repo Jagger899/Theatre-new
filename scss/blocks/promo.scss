@@ -52,9 +52,11 @@
   }
 
   &__slider-text {
+    font-family: 'Open Sans Condensed Bold', sans-serif;
     color: $main-text-color;
     font-size: 16px;
     cursor: pointer;
+    text-transform: uppercase;
   }
 
   &__slider-img {
@@ -81,6 +83,7 @@
   }
 
   &__text {
+    
     color: $main-text-color;
     margin-bottom: 40px;
 
